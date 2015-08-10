@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qG-6i-pj3">
+                                <rect key="frame" x="46" y="50" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.098039215690000001" green="0.74117647060000003" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="ifH-kd-c37"/>
+                                    <constraint firstAttribute="width" constant="70" id="xeR-0p-Sei"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ia3-H5-V4n">
+                                <rect key="frame" x="46" y="150" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.42352941179999998" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="1W8-aL-RtJ"/>
+                                    <constraint firstAttribute="height" constant="70" id="Suq-7i-alg"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGj-ue-4H6">
+                                <rect key="frame" x="252" y="285" width="96" height="30"/>
+                                <state key="normal" title="开始转起来啦\">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9qG-6i-pj3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="0BA-fZ-CB4"/>
+                            <constraint firstAttribute="centerX" secondItem="yGj-ue-4H6" secondAttribute="centerX" id="0Pn-Go-etM"/>
+                            <constraint firstItem="Ia3-H5-V4n" firstAttribute="top" secondItem="9qG-6i-pj3" secondAttribute="bottom" constant="30" id="9YH-bb-Dsi"/>
+                            <constraint firstItem="Ia3-H5-V4n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="FUH-Fj-F3m"/>
+                            <constraint firstAttribute="centerY" secondItem="yGj-ue-4H6" secondAttribute="centerY" id="drJ-xo-uuD"/>
+                            <constraint firstItem="9qG-6i-pj3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="vHE-PV-0lm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueView" destination="9qG-6i-pj3" id="LQJ-sf-WWr"/>
+                        <outlet property="oriangeView" destination="Ia3-H5-V4n" id="xZ2-nL-rzn"/>
+                        <outlet property="runlabel" destination="yGj-ue-4H6" id="bUR-0U-2F6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
