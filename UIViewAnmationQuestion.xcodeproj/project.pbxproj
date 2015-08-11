@@ -15,6 +15,8 @@
 		384F13B71B78A48400B88986 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 384F13B51B78A48400B88986 /* LaunchScreen.xib */; };
 		384F13C31B78A48400B88986 /* UIViewAnmationQuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 384F13C21B78A48400B88986 /* UIViewAnmationQuestionTests.m */; };
 		38FC5EFE1B79918A00CFFE51 /* ShuffleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC5EFD1B79918A00CFFE51 /* ShuffleViewController.m */; };
+		38FC5F011B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC5F001B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.m */; };
+		38FC5F041B79DC9C00CFFE51 /* ClockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC5F031B79DC9C00CFFE51 /* ClockLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		384F13C21B78A48400B88986 /* UIViewAnmationQuestionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnmationQuestionTests.m; sourceTree = "<group>"; };
 		38FC5EFC1B79918A00CFFE51 /* ShuffleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShuffleViewController.h; sourceTree = "<group>"; };
 		38FC5EFD1B79918A00CFFE51 /* ShuffleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShuffleViewController.m; sourceTree = "<group>"; };
+		38FC5EFF1B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayerPropertyAnimationViewController.h; sourceTree = "<group>"; };
+		38FC5F001B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayerPropertyAnimationViewController.m; sourceTree = "<group>"; };
+		38FC5F021B79DC9C00CFFE51 /* ClockLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockLayer.h; sourceTree = "<group>"; };
+		38FC5F031B79DC9C00CFFE51 /* ClockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				384F13AE1B78A48400B88986 /* ViewController.m */,
 				38FC5EFC1B79918A00CFFE51 /* ShuffleViewController.h */,
 				38FC5EFD1B79918A00CFFE51 /* ShuffleViewController.m */,
+				38FC5EFF1B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.h */,
+				38FC5F001B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.m */,
+				38FC5F021B79DC9C00CFFE51 /* ClockLayer.h */,
+				38FC5F031B79DC9C00CFFE51 /* ClockLayer.m */,
 				384F13B01B78A48400B88986 /* Main.storyboard */,
 				384F13B31B78A48400B88986 /* Images.xcassets */,
 				384F13B51B78A48400B88986 /* LaunchScreen.xib */,
@@ -224,8 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FC5F041B79DC9C00CFFE51 /* ClockLayer.m in Sources */,
 				384F13AF1B78A48400B88986 /* ViewController.m in Sources */,
 				384F13AC1B78A48400B88986 /* AppDelegate.m in Sources */,
+				38FC5F011B79DC7700CFFE51 /* CustomLayerPropertyAnimationViewController.m in Sources */,
 				38FC5EFE1B79918A00CFFE51 /* ShuffleViewController.m in Sources */,
 				384F13A91B78A48400B88986 /* main.m in Sources */,
 			);
