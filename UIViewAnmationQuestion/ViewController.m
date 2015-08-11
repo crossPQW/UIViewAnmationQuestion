@@ -37,10 +37,28 @@
     
 //    [self test3];
     
+    [self test4];
+    
 }
 
 - (void)test4
 {
+    CGRect boundingRect = CGRectMake(-150, -150, 300, 300);
+    
+    CAKeyframeAnimation *orbit = [CAKeyframeAnimation animation];
+    orbit.keyPath = @"position";
+    orbit.path = CFAutorelease(CGPathCreateWithEllipseInRect(boundingRect, NULL));
+    
+    orbit.duration = 4.f;
+    orbit.additive = YES;
+    orbit.repeatCount = HUGE_VALL;
+    
+    //控制关键帧动画时间
+    orbit.calculationMode = kCAAnimationPaced;
+    //确保图层围着路径旋转
+    orbit.rotationMode = kCAAnimationRotateAuto;
+    
+    [self.runlabel.layer addAnimation:orbit forKey:@"runPath"];
     
 }
 
